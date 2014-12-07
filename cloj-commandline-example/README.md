@@ -4,7 +4,7 @@ A little example to show how to create a command line program in Clojure and ins
 with java -jar some.jar in order to run it, we instead can use the lein-bin plugin to further package the program such 
 that it can appear to be like any other command line program on the system.  In this case, I named the program 'ccle.'
 
-I got the idea here:
+I read about the idea here:
 http://yobriefca.se/blog/2014/03/02/building-command-line-apps-with-clojure/
 
 lein-bin plugin for leinengen:  https://github.com/Raynes/lein-bin
@@ -19,5 +19,4 @@ ccle -h  | Displays usage and then exits
 
 Copyright © 2014 Benjamin Brunk
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License either version 1.0 or any later version.
