@@ -1,6 +1,6 @@
 # cloj-commandline-example
 
-A little example to show how to create a command line program in Clojure and instaed of having to write a .sh (or .bat) file
+A little example to show how to create a command line program in Clojure and instead of having to write a .sh (or .bat) file
 with java -jar some.jar in order to run it, we instead can use the lein-bin plugin to further package the program such 
 that it can appear to be like any other command line program on the system.  In this case, I named the program 'ccle.'
 
