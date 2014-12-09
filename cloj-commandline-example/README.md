@@ -9,6 +9,14 @@ http://yobriefca.se/blog/2014/03/02/building-command-line-apps-with-clojure/
 
 lein-bin plugin for leinengen:  https://github.com/Raynes/lein-bin
 
+## A word on Non-Container Execution
+
+Over the past couple of years, I have worked on quite a few enterprise web applications that run in a servlet container on 
+Tomcat, Jetty, and Websphere.  But in addition to those types of applications, I have also written a good number of what
+I refer to as 'batch' applications, which also use many of the same frameworks as their web-enabled cousins.  These small
+ETL and data moving type programs act as the integration glue within an organization and often run as a daemon or 
+via a scheduler such as cron.    
+
 ## Usage
 
 ccle     | Runs the program
